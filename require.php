@@ -2,7 +2,7 @@
     session_start();
     $curdate = date("Y-m-d");
 
-    $dbc = mysqli_connect('localhost', 'webuser', 'webuser', 'Web') OR die (mysqli_connect_error());
+    $dbc = mysqli_connect('localhost', '', '', 'Web') OR die (mysqli_connect_error());
     mysqli_set_charset($dbc, 'utf-8');
     
     $sql = "SELECT * FROM clients WHERE Date = '".$curdate."'";
