@@ -1,1 +1,3 @@
 # WebDevshit
+
+Created a webiste where there is no need for a receptionist as this program takes care of it. Customers will register for an appointement on the business website. Customers will be sent a password or pin and will be prompted to enter it when they select the box that contains their names. Names and passwords are passed through a mysql database and passwords . This can continue to evolve as the css porition can be improved. Not only this but also you can then send out data notifing employees that the customer has arrived. Passwords can also be encrypted used either the AES or RSA encryption methods. 
